@@ -19,6 +19,8 @@ dataSources:
         - DelegateVotesChanged
         - OwnershipTransferred
         - Transfer
+        - TokenHolder
+        - Whale
       abis:
         - name: SushiToken
           file: ./abis/SushiToken.json
